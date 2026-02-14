@@ -1,9 +1,28 @@
 body {
   background-color: lightpink;
+  text-align: center;
 }
+body {
+  background-color: lightpink;
+}
+
 .headding img {
-border-radius: 15px;
-height:50px;
-width:5opx;
-display:inline-block;
+  border-radius: 15px;
+  height: 50px;
+  width: 50px;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.headding h1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 10px; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.headding {
+  display: block;
+  margin:auto;
+  padding:20px;
 }
