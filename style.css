@@ -3,4 +3,7 @@ body {
 }
 .headding img {
 border-radius: 15px;
+height:50px;
+width:5opx;
+display:inline-block;
 }
