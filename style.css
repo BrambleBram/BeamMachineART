@@ -1,3 +1,6 @@
 body {
   background-color: lightpink;
 }
+.heading img {
+border-radius: 15px;
+}
