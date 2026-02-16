@@ -80,4 +80,12 @@ margin:0 auto;
 .gallery img:hover{
  transform: scale(1.5);
  object-fit:contain;
+ border-radius: 5px;;
+}
+
+.pictext{
+  position: relative;
+  text-align: center;
+  padding: auto;
+ 
 }
