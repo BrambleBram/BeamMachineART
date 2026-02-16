@@ -82,10 +82,21 @@ margin:0 auto;
  object-fit:contain;
  border-radius: 5px;;
 }
-
-.pictext{
+.pictext {
+  visibility: hidden;
   position: relative;
+  height: 0;          /* Layout won't jump because height is zero */
+  overflow: visible;  /* Allows the text to still be seen */
+  margin-top: -40px;  /* Moves the text "up" so it sits on the pony */
+  z-index: 10;
   text-align: center;
-  padding: auto;
- 
+}
+
+.gallery div:hover .pictext {
+  visibility: visible;
+  background-color:lightpink;
+  border-radius: 5px;
+  height:auto;
+  color:white;
+
 }
