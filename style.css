@@ -33,3 +33,11 @@ background-color:rgb(226, 43, 183);
 border-radius: 50px;
 border: none;
 }
+
+.rainbow-vector{
+  transform: skewX(1.5);
+  transform: skewY(5);
+  filter: brightness(1.2) saturate(0.6) drop-shadow(5px 5px 5px black);
+  
+
+}
